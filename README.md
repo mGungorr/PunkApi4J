@@ -73,7 +73,7 @@ PunkApi Documentation  : `https://punkapi.com/documentation/v2`
 * Test                : `GET /v2/test`
 * Get Beer with Id    : `GET /v2/beer/{id}`
 * Get Beers           : `GET /v2/beers`
-* Get Beers with page : `GET /v2/beers?page=1&per_page=10`
+* Get Beers with page : `GET /v2/beers?page={page}&per_page={per_page}`
 * Get a random beer   : `GET /v2/beers/random`
 * Get beer qith query : `GET /v2/beers/query`
 
