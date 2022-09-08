@@ -65,13 +65,14 @@ The project will run on port 8080 (configured as default).
 
 ## ⚙️ API Example
 
-Main application URL: `http://localhost:8080`
+Main application URL   : `http://localhost:8080`
+PunkApi Documentation  : `https://punkapi.com/documentation/v2`
 
 #### Endpoints
 * Test                : `GET /v2/test`
 * Get Beer with Id    : `GET /v2/beer/{id}`
 * Get Beers           : `GET /v2/beers`
-* Get Beers with page : `GET /v2/beers/page`
+* Get Beers with page : `GET /v2/beers?page=1&per_page=10`
 * Get a random beer   : `GET /v2/beers/random`
 * Get beer qith query : `GET /v2/beers/query`
 
