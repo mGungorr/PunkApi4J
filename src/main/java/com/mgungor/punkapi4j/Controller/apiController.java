@@ -21,8 +21,8 @@ public class apiController {
     }
 
     @GetMapping(value = BEER)
-    public @ResponseBody Beer[] getBeer(@RequestParam Integer beer) {
-        return apiService.getBeer(beer);
+    public @ResponseBody Beer[] getBeer(@PathVariable Integer id) {
+        return apiService.getBeer(id);
     }
 
     @GetMapping(value = BEERS)

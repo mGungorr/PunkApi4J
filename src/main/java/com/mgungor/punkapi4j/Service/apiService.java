@@ -22,8 +22,8 @@ public class apiService {
         return  "OK";
     }
 
-    public Beer[] getBeer(Integer beer){
-        return restTemplate.getForObject(GET_BEER(beer), Beer[].class);
+    public Beer[] getBeer(Integer id){
+        return restTemplate.getForObject(GET_BEER(id), Beer[].class);
     }
 
     public Beer[] getBeers(){

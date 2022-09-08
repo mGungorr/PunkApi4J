@@ -9,8 +9,8 @@ public class Url {
 
     public static final String GET_RANDOM_BEER = GET_BEERS + "/random";
 
-    public static String GET_BEER(Integer beer){
-        return GET_BEERS + "/" + beer;
+    public static String GET_BEER(Integer id){
+        return GET_BEERS + "/" + id;
     }
     public static String GET_BEERS_WITH_PAGE(Integer page, Integer per_page){
         return GET_BEERS + "?page=" +page+ "&per_page="+per_page;
