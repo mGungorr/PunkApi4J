@@ -69,6 +69,8 @@ Main application URL   : `http://localhost:8080`
 
 PunkApi Documentation  : `https://punkapi.com/documentation/v2`
 
+PunkApi Github         : `https://github.com/sammdec/punkapi`
+
 #### Endpoints
 * Test                : `GET /v2/test`
 * Get Beer with Id    : `GET /v2/beer/{id}`
