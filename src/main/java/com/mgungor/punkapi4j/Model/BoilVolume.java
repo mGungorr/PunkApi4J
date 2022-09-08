@@ -1,4 +1,4 @@
-package com.punkApi.J.Model;
+package com.mgungor.punkapi4j.Model;
 
 public class BoilVolume {
     public int value;

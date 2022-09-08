@@ -1,5 +1,22 @@
-package com.punkApi.J.Utils;
+package com.mgungor.punkapi4j.Utils;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
 
 public class Url {
-    public static String PAGINATION_URL="https://api.punkapi.com/v2/beers?page=1&per_page=10";
+    public static final String ROOT ="https://api.punkapi.com/v2/";
+    public static final String GET_BEERS = ROOT + "beers";
+
+    public static final String GET_RANDOM_BEER = GET_BEERS + "/random";
+
+    public static String GET_BEER(Integer beer){
+        return GET_BEERS + "/" + beer;
+    }
+    public static String GET_BEERS_WITH_PAGE(Integer page, Integer per_page){
+        return GET_BEERS + "?page=" +page+ "&per_page="+per_page;
+    }
+
+    public static String GET_QUERY(HttpServletRequest queryParameters){
+        return GET_BEERS + "?"+ queryParameters.getQueryString();
+    }
 }

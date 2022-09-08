@@ -1,5 +1,10 @@
-package com.punkApi.J.Model;
+package com.mgungor.punkapi4j.Model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Beer {
     public int id;
     public String name;
