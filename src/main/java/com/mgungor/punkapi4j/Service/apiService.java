@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Map;
 
 import static com.mgungor.punkapi4j.Utils.Url.*;
 
@@ -41,5 +40,4 @@ public class apiService {
     public Beer[] getSpecifiedBeer(HttpServletRequest queryParameters){
         return restTemplate.getForObject(GET_QUERY(queryParameters), Beer[].class);
     }
-
 }

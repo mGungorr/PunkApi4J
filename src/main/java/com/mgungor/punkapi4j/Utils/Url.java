@@ -1,7 +1,6 @@
 package com.mgungor.punkapi4j.Utils;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Map;
 
 public class Url {
     public static final String ROOT ="https://api.punkapi.com/v2/";
